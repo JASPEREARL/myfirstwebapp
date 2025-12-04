@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Replace with your own background later */
+    background: url('Hills.png')
+        no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: Georgia, serif;
+}
+
+.card {
+    width: 90%;
+    max-width: 900px;
+    padding: 40px 50px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 25px;
+    backdrop-filter: blur(3px);
+    text-align: center;
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.3;
+}
+
+.line {
+    width: 60%;
+    height: 4px;
+    background: white;
+    margin: 25px auto;
+    border-radius: 2px;
+}
+
+.nameblock {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 10px;
+}
